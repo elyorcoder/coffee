@@ -1,0 +1,54 @@
+.wrapper-our{
+    margin-top: 300px;
+    width: 100%;
+    height: 600px;
+}
+.collection{
+    position: relative;
+    width: 1280px;
+    height: 525px;
+    margin: auto;
+}
+.pic{
+    position: absolute;
+    bottom: 460px;
+    left: 85px;
+    z-index: 1;
+width: 1111px;
+height: 196px;
+}
+.box{
+    position: relative;
+    z-index: 2;
+}
+.big{
+    width: 255px;
+font-family: 'Fraunces';
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 32px;
+/* identical to box height, or 133% */
+text-align: center;
+
+color: #333D4B;
+}
+.small{
+width: 255px;
+font-family: 'Barlow';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* or 162% */
+text-align: center;
+
+color: #333D4B;
+
+
+}
+.wrapper-box{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}

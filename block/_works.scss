@@ -1,0 +1,76 @@
+.wrapper-works{
+    margin-top: 800px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    .work{
+        width: 1118px;
+        height: 630px;
+        .how{
+            /* How it works */
+            font-family: 'Fraunces';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 24px;
+            line-height: 32px;
+            /* identical to box height, or 133% */
+
+            color: #83888F;
+            margin-bottom: 70px;
+        }
+        .help-bro{
+            display: flex;
+            height: 31px;
+            align-items: center;
+            margin-bottom: 50px;
+        }
+        .bros-helper{
+            display: flex;
+            gap: 95px;
+        }
+    }
+}
+.numbers{
+font-family: 'Fraunces';
+font-style: normal;
+font-weight: 900;
+font-size: 72px;
+line-height: 72px;
+/* identical to box height, or 100% */
+
+color: #FDD6BA;
+
+
+}
+.lux-version{
+font-family: 'Fraunces';
+font-style: normal;
+font-weight: 900;
+font-size: 32px;
+line-height: 36px;
+/* or 112% */
+
+color: #333D4B;
+
+
+}
+.lot{
+    width: 285px;
+font-family: 'Barlow';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* or 162% */
+
+color: #333D4B;
+
+
+}
+#helper{
+    margin-top: 50px;
+    &:active{
+        transform: rotate(0turn) translatey(-50px) scale(1.7);
+    }
+}
