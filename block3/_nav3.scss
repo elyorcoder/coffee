@@ -1,0 +1,33 @@
+.navbar {
+  width: 1280px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 100px auto;
+
+  &__list {
+    display: flex;
+    gap: 50px;
+  }
+
+  &__link {
+    /* HOME */
+    display: inline-block;
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height, or 125% */
+    letter-spacing: 0.923077px;
+    text-transform: uppercase;
+    transition: all 1s ease;
+
+    color: #83888f;
+
+    &:hover {
+      color: black;
+      transform: scale(1.3);
+    }
+  }
+}
