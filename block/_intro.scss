@@ -4,8 +4,6 @@
     align-items: center;
     width: 100%;
     height: 600px;
-    background: url(../images/BIt.png) , no-repeat ;
-
 }
 .h1{
 font-family: 'Fraunces';
@@ -58,4 +56,13 @@ opacity: 0.8;
         transform: rotate(15.1turn) translatey(-25px) scale(1,2);
         background-color: #66D2CF;
     }
+}
+.wrapper-intro{
+  margin: auto;
+  width: 1280px;
+  height: 600px;
+background-image: url(../images/BIt.png);
+border-radius: 30px;
+display: flex;
+align-items: center;
 }
