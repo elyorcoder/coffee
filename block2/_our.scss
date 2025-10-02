@@ -1,0 +1,36 @@
+.h2{
+font-family: 'Fraunces';
+font-style: normal;
+font-weight: 900;
+font-size: 40px;
+line-height: 48px;
+/* identical to box height, or 120% */
+
+color: #333D4B;
+
+
+}
+.p{
+    margin-top: 60px;
+width: 540px;
+font-family: 'Barlow';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* or 162% */
+
+color: #333D4B;
+
+mix-blend-mode: normal;
+opacity: 0.8;
+
+}
+.our{
+    display: flex;
+    justify-content: center;
+    gap: 300px;
+    align-items: center;
+    width: 1440px;
+    margin: auto ;
+}

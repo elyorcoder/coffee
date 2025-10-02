@@ -1,10 +1,9 @@
 .footer-wrapper{
     width: 100%;
     height: 120px;
-    display: flex;
-    justify-content: center;
     background-color: #293039;
     .footer{
+        margin: auto;
         width: 1280px;
         height: 120px;
         display: flex;
@@ -17,7 +16,6 @@
             height: 120px;
             align-items: center;
             gap: 103px;
-            
             .footer-text{
                 display: flex;
                 gap: 33px;
