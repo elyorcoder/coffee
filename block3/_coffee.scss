@@ -1,0 +1,30 @@
+.dropdown-wrapper{
+    width: 1280px;
+    margin: auto;
+}
+.text{
+font-family: 'Fraunces';
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 32px;
+/* identical to box height, or 133% */
+
+color: #333D4B;
+    &hover{
+        color: black;
+    }
+}
+.How-dropdown{
+
+font-family: 'Fraunces 9pt';
+font-style: normal;
+font-weight: 900;
+font-size: 40px;
+line-height: 48px;
+/* identical to box height, or 120% */
+
+color: #83888F;
+
+
+}
